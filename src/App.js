@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import CoryxKinshin from './assets/CoryxKinshin.jpg'
 import './App.css';
 
 
@@ -81,6 +82,7 @@ function App() {
         {youtubers.map((creators) => {
           return (!update[creators.id] ?
             <div className='youtubeCard' key={creators.id}>
+              <img src={CoryxKinshin} alt="CoryxKinshin"></img>
               <h3>{creators.name}</h3>
               <p>{creators.youtube_name}</p>
               <p>{creators.year_made}</p>
