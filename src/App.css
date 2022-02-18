@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to right, lightgrey,blanchedalmond ,lightblue);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 100px ;
 }
 
 .App-link {
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.youtubeCard{
+  box-shadow: 3px 4px 5px 6px rgb(0 0 0 / 24%);
+  width: 500px;
+  border-radius: 10px;
+  margin: 21px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.youtubeCard:hover{
+  border: 1px solid #88d7ff31;
+  margin: 20px;
+}
+
+.youtubeCard h3, .youtubeCard p, .youtubeCard input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+
+.youtubeCard button{
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color:blanchedalmond;
+  border: none;
+ 
+
+}
+
+.youtubeCard button:hover{
+  background-color: red
+}
+
+.head{
+  color: black;
 }
